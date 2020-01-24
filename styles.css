@@ -18,12 +18,13 @@ video {
 
 .video-header {
   height: 100vh;
+  overflow: hidden;
 }
 
 .video-header .header-text{
   position: absolute;
   z-index: 2;
-  bottom: 50%;
+  bottom: 25%;
   text-align: center;
   padding: 4em;
   background-color: black;
